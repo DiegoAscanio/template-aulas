@@ -3,6 +3,15 @@
     background: #fff url(./img/background.png) no-repeat center center;
     background-size: cover;
   }
+
+  .transparent {
+    background-color: transparent!important;
+  }
+
+  .transparent-table-tr-td-th {
+    background-color: rgba(0, 0, 0, 0.0) !important;
+  }
+
   .cabecalho {
     position: absolute;
     top: 10%;
