@@ -8,6 +8,10 @@
     background-color: transparent!important;
   }
 
+  section.transparent img {
+    background-color: transparent!important;
+  }
+
   .transparent-table-tr-td-th {
     background-color: rgba(0, 0, 0, 0.0) !important;
   }
@@ -106,7 +110,28 @@
     font-size: 28px;
     text-align: justify;
   }
+
+  .grid-50-50 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+  }
+
+  .grid-66-33 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: justify;
+  }
+
+  .grid-element {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  img[alt=grid-img] {
+    width: 100%;
+  }
+
 </style>
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script id="MathJax-script" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
