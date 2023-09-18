@@ -79,38 +79,7 @@
   section.lead h2 {
     text-align: center;
   }
-  .two-columns-33-66 {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    margin-right: 10%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    font-size: 28px;
-    text-align: justify;
-  }
-  .two-columns-66-33 {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    margin-right: 10%;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    font-size: 28px;
-    text-align: justify;
-  }
-
-  .two-columns-50-50 {
-    position: absolute;
-    top: 30%;
-    margin-left: 5%;
-    margin-right: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    font-size: 28px;
-    text-align: justify;
-  }
-
+  
   .grid-50-50 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -120,6 +89,12 @@
   .grid-66-33 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    text-align: justify;
+  }
+
+  .grid-33-66 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     text-align: justify;
   }
 
