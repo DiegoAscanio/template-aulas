@@ -27,8 +27,9 @@
 
   .conteudo {
     top: 30%;
+    margin-top: 7.5vh;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     font-size: 28px;
     text-align: justify;
   }
@@ -37,15 +38,16 @@
     position: absolute;
     top: 30%;
     margin-left: 5%;
-    margin-right: 10%;
+    margin-right: 5%;
     font-size: 28px;
     text-align: justify;
   }
-  
-  .large {
-    font-size: 36px;
+  .huge {
+    font-size: 32px;
   }
-
+  .large {
+    font-size: 24px;
+  }
   .normal {
     font-size: 22px;
   }
@@ -67,11 +69,13 @@
   .bold {
     font-weight: bold;
   }
-  .center {
-    text-align: center;
+  section.centered table {
+    margin-left: auto;
+    margin-right: auto;
   }
   section.lead p {
     text-align: justify;
+    font-size: 18px;
   }
   section.lead h1 {
     text-align: center;
@@ -92,6 +96,18 @@
     text-align: justify;
   }
 
+  .grid-75-25 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: justify;
+  }
+
+  .grid-80-20 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    text-align: justify;
+  }
+
   .grid-33-66 {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -101,9 +117,36 @@
   .grid-element {
     margin-left: 5%;
     margin-right: 5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
   }
   img[alt=grid-img] {
+    display: block;
     width: 100%;
+  }
+
+  img[alt=grid-img-50] {
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+
+  img[alt=grid-img-75] {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
+
+
+  img[alt=centered-img] {
+    display: block;
+    margin: auto;
+  }
+
+  img[alt=arquitetura-microprocessador] {
+    display: block;
+    margin: auto;
+    width: 45%;
   }
 
 </style>
