@@ -40,7 +40,7 @@ jobs:
               run: |
                   git config user.name 'diegoascanio'
                   git config user.email 'dascaniosantos@gmail.com'
-                  git add ./index.html
+                  git add ./index.*
                   git commit -m 'convert md to html'
                   git push
               env:
