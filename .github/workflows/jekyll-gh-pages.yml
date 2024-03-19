@@ -33,7 +33,7 @@ jobs:
             - name: Installs marpit-cli package
               run: sudo npm install -g @marp-team/marp-cli
             - name: Build slides
-              run: python ./build_slides.pya
+              run: python ./build_slides.py
             - name: Convert slides to html
               run: marp --html ./index.md
             - name: Commit changes

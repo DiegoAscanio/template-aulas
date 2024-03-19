@@ -14,5 +14,5 @@ content += '\n\n---\n\n'.join(
     slides
 )
 
-with open('index.md', 'w') as f:
+with open('./index.md', 'w') as f:
     f.write(content)
