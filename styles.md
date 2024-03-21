@@ -77,10 +77,7 @@
     text-align: justify;
     font-size: 18px;
   }
-  section.lead h1 {
-    text-align: center;
-  }
-  section.lead h2 {
+  section.lead h1, h2, h3, h4 {
     text-align: center;
   }
   
@@ -125,6 +122,12 @@
     width: 100%;
   }
 
+  img[alt=grid-img-35] {
+    display: block;
+    margin: auto;
+    width: 35%;
+  }
+
   img[alt=grid-img-50] {
     display: block;
     margin: auto;
@@ -147,6 +150,35 @@
     display: block;
     margin: auto;
     width: 45%;
+  }
+
+  .mid-aligned-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .column-container {
+    flex: 1;
+    padding: 5px;
+  }
+
+  .column-row-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quarter-row {
+    flex: 1;
+  }
+
+  .three-quarter-row {
+    flex: 3;
   }
 
 </style>
