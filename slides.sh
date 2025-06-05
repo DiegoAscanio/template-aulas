@@ -17,6 +17,18 @@ install_docker() {
     echo "Installing Docker..."
     sudo apt-get update
     sudo apt-get install -y docker.io
+    # enable and start docker if systemd is available
+    if command -v systemctl &> /dev/null; then
+        echo "Enabling and starting Docker service..."
+        sudo systemctl enable docker
+        sudo systemctl start docker
+    else
+        # we're probably running inside a container, so just start dockerd
+        # in background redirecting all output to /dev/null
+        echo "Starting Docker service..."
+        sudo dockerd > /dev/null 2>&1 &
+    fi
+    # add current user to the docker group
     sudo usermod -aG docker $USER
     return 0
 }
