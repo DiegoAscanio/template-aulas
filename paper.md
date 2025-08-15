@@ -61,7 +61,7 @@ Two template repositories are available at:
 
 The first one is a basic template for creating interactive slides using Marpit and GitHub Pages, while the second one is an example of a seminar created using the template with many interactive features.
 
-At least two complete courses — ministered in portuguese — have been created using the template:
+At least two complete courses — taught in portuguese — have been created using the template:
 
 - [Electrical Circuit Analysis](https://diegoascanio.github.io/ace)
 - [Microcontrollers Programming](https://diegoascanio.github.io/mpmc)
