@@ -71,7 +71,7 @@ Replace `<GITHUB_USERNAME>` and `<REPOSITORY_NAME>` accordingly.
 If you’re new to Marpit or want to explore advanced features, these videos are highly recommended:
 
 1. [Marpit + Marp CLI: Create Beautiful Slides from Markdown (YouTube)](https://www.youtube.com/watch?v=EzQ-p41wNEE)  
-2. [Advanced Marpit Tips and Tricks (YouTube)](https://youtu.be/STNKNB3n1aA?si=JqKDTFn16zigUzMR)  
+2. [Advanced Marpit Tips and Tricks (In Portuguese - YouTube)](https://youtu.be/STNKNB3n1aA?si=JqKDTFn16zigUzMR)  
 
 ---
 
