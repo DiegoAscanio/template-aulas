@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN"
+                  "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+<journal-title>Journal of Open Source Education</journal-title>
+<abbrev-journal-title>JOSE</abbrev-journal-title>
+</journal-title-group>
+<issn publication-format="electronic">2577-3569</issn>
+<publisher>
+<publisher-name>Open Journals</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">0</article-id>
+<article-id pub-id-type="doi">N/A</article-id>
+<title-group>
+<article-title>Interactive Slides for Teaching Classes Through
+Marpit</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0009-0005-1589-657X</contrib-id>
+<name>
+<surname>Santos</surname>
+<given-names>Diego Ascanio</given-names>
+</name>
+<xref ref-type="aff" rid="aff-1"/>
+</contrib>
+<aff id="aff-1">
+<institution-wrap>
+<institution>Centro Federal de Educação Tecnológica de Minas Gerais,
+Brazil</institution>
+</institution-wrap>
+</aff>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-08-15">
+<day>15</day>
+<month>8</month>
+<year>2025</year>
+</pub-date>
+<volume>¿VOL?</volume>
+<issue>¿ISSUE?</issue>
+<fpage>¿PAGE?</fpage>
+<permissions>
+<copyright-statement>Authors of papers retain copyright and release the
+work under a Creative Commons Attribution 4.0 International License (CC
+BY 4.0)</copyright-statement>
+<copyright-year>1970</copyright-year>
+<copyright-holder>The article authors</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/">
+<license-p>Authors of papers retain copyright and release the work under
+a Creative Commons Attribution 4.0 International License (CC BY
+4.0)</license-p>
+</license>
+</permissions>
+<kwd-group kwd-group-type="author">
+<kwd>Slide-based teaching</kwd>
+<kwd>Marpit</kwd>
+<kwd>Interactive Learning</kwd>
+<kwd>Open Educational Resources</kwd>
+<kwd>Web Technologies in Education</kwd>
+</kwd-group>
+</article-meta>
+</front>
+<body>
+<sec id="summary">
+  <title>Summary</title>
+  <p>Interactive slides that allow students to interact with the content
+  of the class, such as answering questions, solving exercises,
+  whatching videos, running / building codes and providing feedback, can
+  enhance the learning experience leading to higher engagement, better
+  understanding and improved education outcomes. This paper presents an
+  open educational template for slides that can be used to create
+  interactive classes using Marpit, a framework for creating slides with
+  Markdown. The template is designed to be easy to use and customize,
+  allowing educators to create interactive slides that can be used in a
+  variety of educational settings.</p>
+</sec>
+<sec id="statement-of-need">
+  <title>Statement of Need</title>
+  <p>Slide presentations — using tools like PowerPoint, Prezi and Marpit
+  (<xref alt="Gaskins et al., 1987" rid="ref-gaskins_microsoft_1987" ref-type="bibr">Gaskins
+  et al., 1987</xref>;
+  <xref alt="Hattori &amp; Marp Team, 2019" rid="ref-hattori_marp-teammarpit_2019" ref-type="bibr">Hattori
+  &amp; Marp Team, 2019</xref>;
+  <xref alt="Somlai-Fischer et al., 2009" rid="ref-somlai-fischer_prezi_2009" ref-type="bibr">Somlai-Fischer
+  et al., 2009</xref>) — are widely used in educational environments to
+  deliver lectures, workshops and seminars. Interactive learning tools
+  have been shown to boost student engagement, attention and
+  achievement, especially when they include activities and opportunities
+  for participation
+  (<xref alt="Bland et al., 2024" rid="ref-Bland2024Multimedia" ref-type="bibr">Bland
+  et al., 2024</xref>;
+  <xref alt="Ramírez-Noriega et al., 2022" rid="ref-ramirez-noriega_presentation_2022" ref-type="bibr">Ramírez-Noriega
+  et al., 2022</xref>;
+  <xref alt="Ruado &amp; Cortez, 2024" rid="ref-ruado_enhancing_2024" ref-type="bibr">Ruado
+  &amp; Cortez, 2024</xref>).</p>
+  <p>Marpit, from Hattori &amp; Marp Team
+  (<xref alt="2019" rid="ref-hattori_marp-teammarpit_2019" ref-type="bibr">2019</xref>),
+  enables educators to build hypermedia presentations using web
+  technologies such as Markdown, HTML, CSS, and JavaScript. It supports
+  embedding rich media—images, videos, and interactive elements like
+  buttons, input fields, or even external websites and applications
+  (e.g., JupyterLite notebooks) via tags. This versatility makes it
+  suitable for creating engaging, interactive slides for diverse
+  educational contexts, including online courses, workshops, and
+  seminars.</p>
+</sec>
+<sec id="usage">
+  <title>Usage</title>
+  <p>It is expected from educators some background knowledge in web
+  technologies and the repository management platform GitHub, as the
+  basic template is meant to run inside GitHub Pages. It is posible to
+  run marpit locally, but it is not the focus of this paper, as hosting
+  slides on github pages is a free and easy way to share them with
+  students.</p>
+  <p>Educators interested in using the template can follow the
+  subsequent steps:</p>
+  <list list-type="order">
+    <list-item>
+      <p>Head to
+      <ext-link ext-link-type="uri" xlink:href="https://github.com/DiegoAscanio/template-aulas">https://github.com/DiegoAscanio/template-aulas</ext-link>
+      and click on the “Use this template” button to create a new
+      repository based on the template.</p>
+    </list-item>
+    <list-item>
+      <p>Enable GitHub Pages in the repository settings, through
+      settings &gt; pages &gt; build and deployment &gt; source &gt;
+      github actions.</p>
+    </list-item>
+    <list-item>
+      <p>Go to the slides folder inside the repository root directory
+      and create (edit) the numbered markdown files (01.md, 02.md, etc.)
+      to create the markdown sldes.</p>
+    </list-item>
+    <list-item>
+      <p>Commit and push the changes after creating (editing) the slides
+      to see the changes reflected in the GitHub Pages site.</p>
+    </list-item>
+  </list>
+  <p>Slides can be accessed through the URL:</p>
+  <p><monospace>https://&lt;GITHUB_USERNAME&gt;.github.io/&lt;REPOSITORY_NAME&gt;</monospace></p>
+  <p>where <monospace>&lt;GITHUB_USERNAME&gt;</monospace> is the GitHub
+  username of the repository owner and
+  <monospace>&lt;REPOSITORY_NAME&gt;</monospace> is the name of the
+  slides repository created using the template.</p>
+</sec>
+<sec id="results">
+  <title>Results</title>
+  <p>There are several lectures created using the template and two
+  slides of them, with signifficant interactive features, are listed and
+  shown by the Figures 1, and 2, respectively, as examples of marpit
+  capabilities.</p>
+  <fig>
+    <caption><p>A Hypermedia Slide Containing Text and
+    Video</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://i.imgur.com/TA0vfhT.png" />
+  </fig>
+  <fig>
+    <caption><p>A Hypermedia Slide Containing a Full Self-Running
+    Interactive JupyterLite Notebook</p></caption>
+    <graphic mimetype="image" mime-subtype="png" xlink:href="https://i.imgur.com/G9eF85f.png" />
+  </fig>
+</sec>
+<sec id="code-availability-and-examples">
+  <title>Code Availability and Examples</title>
+  <p>Two template repositories are available at: -
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/DiegoAscanio/template-aulas">https://github.com/DiegoAscanio/template-aulas</ext-link>
+  -
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/DiegoAscanio/exemplo-seminarios">https://github.com/DiegoAscanio/exemplo-seminarios</ext-link></p>
+  <p>The first one is a basic template for creating interactive slides
+  using Marpit and GitHub Pages, while the second one is an example of a
+  seminar created using the template with many interactive features.</p>
+  <p>At least two complete courses — ministered in portuguese — have
+  been created using the template:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://diegoascanio.github.io/ace">Electrical
+      Circuit Analysis</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://diegoascanio.github.io/mpmc">Microcontrollers
+      Programming</ext-link></p>
+    </list-item>
+  </list>
+  <p>And even students have created seminars slides using the
+  template:</p>
+  <list list-type="bullet">
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://juliarezende34.github.io/slides-micro">Digital-Analog
+      Conversion Seminar</ext-link></p>
+    </list-item>
+    <list-item>
+      <p><ext-link ext-link-type="uri" xlink:href="https://imarthz.github.io/Slide_Pwm">Pulse
+      Width Modulation Seminar</ext-link></p>
+    </list-item>
+  </list>
+</sec>
+<sec id="conclusion">
+  <title>Conclusion</title>
+  <p>The proposed Marpit-based template is an open educational resource
+  that enables educators to design interactive, media-rich slides,
+  fostering greater student engagement and understanding. Its
+  flexibility in integrating diverse web-based resources supports
+  dynamic teaching approaches. While not its primary aim, the process of
+  creating these slides can incidentally provide a valuable context for
+  applying and reinforcing coding skills, offering an additional layer
+  of learning through coding itself. By remaining openly available and
+  easily adaptable, the template invites replication, customization, and
+  extension across diverse educational settings.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+  <title></title>
+  <ref id="ref-ruado_enhancing_2024">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ruado</surname><given-names>Louis F.</given-names></name>
+        <name><surname>Cortez</surname><given-names>Leah Amor S.</given-names></name>
+      </person-group>
+      <article-title>Enhancing Student Engagement and Achievement in Biology through Interactive Slide Presentations</article-title>
+      <source>American Journal of Education and Technology</source>
+      <year iso-8601-date="2024">2024</year>
+      <pub-id pub-id-type="doi">10.54536/ajet.v3i1.2520</pub-id>
+    </element-citation>
+  </ref>
+  <ref id="ref-ramirez-noriega_presentation_2022">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Ramírez-Noriega</surname><given-names>Alan</given-names></name>
+        <name><surname>Martínez-Ramírez</surname><given-names>Yobani</given-names></name>
+        <name><surname>Jiménez</surname><given-names>S.</given-names></name>
+        <name><surname>Mendivil-Torres</surname><given-names>José</given-names></name>
+      </person-group>
+      <article-title>Presentation Design System to Promote the Lecturer-Audience Interaction in Lessons</article-title>
+      <source>Rev. Colomb. de Computación</source>
+      <year iso-8601-date="2022">2022</year>
+      <volume>23</volume>
+      <pub-id pub-id-type="doi">10.29375/25392115.4303</pub-id>
+      <fpage>6</fpage>
+      <lpage>16</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-gaskins_microsoft_1987">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Gaskins</surname><given-names>Robert</given-names></name>
+        <name><surname>Austin</surname><given-names>Dennis</given-names></name>
+        <name><surname>Rudkin</surname><given-names>Tom</given-names></name>
+        <name><surname>Corporation</surname><given-names>Microsoft</given-names></name>
+      </person-group>
+      <article-title>Microsoft PowerPoint</article-title>
+      <year iso-8601-date="1987">1987</year>
+      <uri>https://www.microsoft.com/microsoft-365/powerpoint</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-hattori_marp-teammarpit_2019">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Hattori</surname><given-names>Yuki</given-names></name>
+        <string-name>Marp Team</string-name>
+      </person-group>
+      <article-title>Marp-team/marpit</article-title>
+      <publisher-name>Marp</publisher-name>
+      <year iso-8601-date="2019-06">2019</year><month>06</month>
+      <date-in-citation content-type="access-date"><year iso-8601-date="2025-08-15">2025</year><month>08</month><day>15</day></date-in-citation>
+      <uri>https://github.com/marp-team/marpit</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-somlai-fischer_prezi_2009">
+    <element-citation>
+      <person-group person-group-type="author">
+        <name><surname>Somlai-Fischer</surname><given-names>Adam</given-names></name>
+        <name><surname>Halácsy</surname><given-names>Péter</given-names></name>
+        <name><surname>Arvai</surname><given-names>Peter</given-names></name>
+      </person-group>
+      <article-title>Prezi</article-title>
+      <year iso-8601-date="2009">2009</year>
+      <uri>https://prezi.com</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-Bland2024Multimedia">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Bland</surname><given-names>Tyler</given-names></name>
+        <name><surname>Guo</surname><given-names>Meize</given-names></name>
+        <name><surname>Dousay</surname><given-names>Tonia A.</given-names></name>
+      </person-group>
+      <article-title>Multimedia design for learner interest and achievement: A visual guide to pharmacology</article-title>
+      <source>BMC Medical Education</source>
+      <year iso-8601-date="2024">2024</year>
+      <volume>24</volume>
+      <pub-id pub-id-type="doi">10.1186/s12909-024-05077-y</pub-id>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>

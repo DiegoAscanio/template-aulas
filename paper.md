@@ -24,13 +24,13 @@ Interactive slides that allow students to interact with the content of the class
 
 # Statement of Need
 
-Slide presentations — using tools like PowerPoint, Prezi and Marpit [@gaskins_microsoft_1987;@somlai-fischer_prezi_2009;@hattori_marp-teammarpit_2019] — are widely used in educational settings to deliver lectures, workshops and seminars. Interactive learning tools have been shown to boost student engagement, attention and achievement, especially when they include activities and opportunities for participation [@ruado_enhancing_2024;@ramirez-noriega_presentation_2022;@Bland2024Multimedia].
+Slide presentations — using tools like PowerPoint, Prezi and Marpit [@gaskins_microsoft_1987;@somlai-fischer_prezi_2009;@hattori_marp-teammarpit_2019] — are widely used in educational environments to deliver lectures, workshops and seminars. Interactive learning tools have been shown to boost student engagement, attention and achievement, especially when they include activities and opportunities for participation [@ruado_enhancing_2024;@ramirez-noriega_presentation_2022;@Bland2024Multimedia].
 
 Marpit, from @hattori_marp-teammarpit_2019, enables educators to build hypermedia presentations using web technologies such as Markdown, HTML, CSS, and JavaScript. It supports embedding rich media—images, videos, and interactive elements like buttons, input fields, or even external websites and applications (e.g., JupyterLite notebooks) via <iframe> tags. This versatility makes it suitable for creating engaging, interactive slides for diverse educational contexts, including online courses, workshops, and seminars.
 
 # Usage 
 
-It is expected from educators some background knowledge in web technologies and the repository management platform GitHub, as the basic template is built to run inside GitHub Pages. It is posible to run marpit locally, but it is not the focus of this paper, as hosting slides on github pages is a free and easy way to share them with students.
+It is expected from educators some background knowledge in web technologies and the repository management platform GitHub, as the basic template is meant to run inside GitHub Pages. It is posible to run marpit locally, but it is not the focus of this paper, as hosting slides on github pages is a free and easy way to share them with students.
 
 Educators interested in using the template can follow the subsequent steps:
 
@@ -63,13 +63,13 @@ The first one is a basic template for creating interactive slides using Marpit a
 
 At least two complete courses — ministered in portuguese — have been created using the template:
 
-[Electrical Circuit Analysis](https://diegoascanio.github.io/ace)
-[Microcontrollers Programming](https://diegoascanio.github.io/mpmc)
+- [Electrical Circuit Analysis](https://diegoascanio.github.io/ace)
+- [Microcontrollers Programming](https://diegoascanio.github.io/mpmc)
 
 And even students have created seminars slides using the template:
 
-[Digital-Analog Conversion Seminar](https://juliarezende34.github.io/slides-micro)
-[Pulse Width Modulation Seminar](https://imarthz.github.io/Slide_Pwm)
+- [Digital-Analog Conversion Seminar](https://juliarezende34.github.io/slides-micro)
+- [Pulse Width Modulation Seminar](https://imarthz.github.io/Slide_Pwm)
 
 # Conclusion
 
